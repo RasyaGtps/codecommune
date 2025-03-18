@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# 🚀 CodeCommune - Platform Komunitas Developer Indonesia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![CodeCommune Logo](https://i.imgur.com/PLACEHOLDER.png)
 
-## Available Scripts
+## 📱 Tampilan Aplikasi
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://i.imgur.com/PLACEHOLDER1.png" width="80%" alt="Dashboard Screenshot">
+</p>
 
-### `npm start`
+## 🌟 Tentang CodeCommune
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CodeCommune adalah platform komunitas modern untuk para developer Indonesia berkumpul, berbagi pengetahuan, berkolaborasi pada proyek, dan membangun jaringan profesional. Platform ini menyediakan ruang bagi developer untuk:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 👥 Bergabung dengan komunitas berdasarkan teknologi favorit
+- 💬 Berpartisipasi dalam diskusi teknis
+- 🛠️ Berkolaborasi dalam proyek open source
+- 📊 Berbagi pengalaman dan pengetahuan
+- 🎯 Mengikuti learning path untuk pengembangan skill
+- 📅 Menghadiri acara dan webinar developer
 
-### `npm test`
+## 🔍 Fitur Utama
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Feed Aktivitas** - Lihat update terbaru dari komunitas
+- **Diskusi Trending** - Ikuti topik-topik hangat di dunia developer
+- **Proyek Unggulan** - Temukan dan kontribusi ke proyek inovatif
+- **Acara Mendatang** - Jangan lewatkan meetup dan konferensi
+- **Learning Path** - Jalur pembelajaran terstruktur untuk skill baru
+- **Sistem Reputasi** - Bangun kredibilitas melalui kontribusi
+- **Challenges** - Asah keahlian dengan tantangan koding harian
 
-### `npm run build`
+## 💻 Teknologi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Proyek ini dibangun dengan teknologi modern:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React.js, Tailwind CSS
+- **State Management**: React Context API
+- **Routing**: React Router
+- **Icons**: Heroicons
+- **Development**: Webpack, Babel, ESLint
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Cara Menjalankan Aplikasi
 
-### `npm run eject`
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/codecommune.git
+   cd codecommune
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Jalankan Aplikasi**
+   ```bash
+   npm start
+   ```
+   Aplikasi akan berjalan di [http://localhost:3000](http://localhost:3000)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Struktur Folder
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+codecommune/
+├── public/              # Static files
+├── src/                 # Source files
+│   ├── components/      # Reusable components
+│   │   ├── dashboard/   # Dashboard components
+│   │   ├── layout/      # Layout components
+│   │   └── ui/          # UI components
+│   ├── context/         # Context providers
+│   ├── data/            # Sample data
+│   ├── hooks/           # Custom hooks
+│   ├── pages/           # Page components
+│   └── utils/           # Utility functions
+└── ...                  # Config files
+```
 
-## Learn More
+## 👨‍💻 Kontribusi
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kami sangat menghargai kontribusi dari komunitas! Jika Anda ingin berkontribusi:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork repository
+2. Buat branch fitur baru (`git checkout -b fitur-keren`)
+3. Commit perubahan (`git commit -m 'Menambahkan fitur keren'`)
+4. Push ke branch (`git push origin fitur-keren`)
+5. Buka Pull Request
 
-### Code Splitting
+## 📝 Lisensi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
 
-### Analyzing the Bundle Size
+## 📞 Kontak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Punya pertanyaan? Hubungi kami di:
 
-### Making a Progressive Web App
+- Email: [example@codecommune.id](mailto:example@codecommune.id)
+- Twitter: [@codecommune](https://twitter.com/codecommune)
+- Website: [www.codecommune.id](https://www.codecommune.id)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <b>Made with ❤️ by Developers for Developers</b>
+</p>
