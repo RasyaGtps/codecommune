@@ -28,7 +28,7 @@ const LeftSidebar = () => {
   ];
   
   return (
-    <div className="h-full bg-white border-r border-gray-200 overflow-y-auto">
+    <div className="h-screen overflow-y-auto scrollbar-hide bg-white border-r border-gray-200 pb-20">
       {/* Profil mini */}
       <div className="p-4 border-b border-gray-200">
         <Link to="/profile" className="block">

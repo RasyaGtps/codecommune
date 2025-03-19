@@ -1,13 +1,4 @@
 # 🚀 CodeCommune - Platform Komunitas Developer Indonesia
-
-![CodeCommune Logo](https://i.imgur.com/PLACEHOLDER.png)
-
-## 📱 Tampilan Aplikasi
-
-<p align="center">
-  <img src="https://i.imgur.com/PLACEHOLDER1.png" width="80%" alt="Dashboard Screenshot">
-</p>
-
 ## 🌟 Tentang CodeCommune
 
 CodeCommune adalah platform komunitas modern untuk para developer Indonesia berkumpul, berbagi pengetahuan, berkolaborasi pada proyek, dan membangun jaringan profesional. Platform ini menyediakan ruang bagi developer untuk:
@@ -22,12 +13,29 @@ CodeCommune adalah platform komunitas modern untuk para developer Indonesia berk
 ## 🔍 Fitur Utama
 
 - **Feed Aktivitas** - Lihat update terbaru dari komunitas
-- **Diskusi Trending** - Ikuti topik-topik hangat di dunia developer
-- **Proyek Unggulan** - Temukan dan kontribusi ke proyek inovatif
-- **Acara Mendatang** - Jangan lewatkan meetup dan konferensi
-- **Learning Path** - Jalur pembelajaran terstruktur untuk skill baru
+- **Komunitas** - Jelajahi dan gabung dengan komunitas developer berdasarkan minat
+- **Proyek** - Temukan dan kontribusi ke proyek open source inovatif
+- **Diskusi** - Ikuti topik-topik hangat di dunia developer
+- **Learning Path** - Jalur pembelajaran terstruktur untuk meningkatkan keahlian
+- **Acara** - Jangan lewatkan meetup, workshop, dan konferensi
+- **Job Board** - Temukan peluang karir di bidang teknologi
+- **Resources** - Akses kumpulan resource belajar dan tutorial
+
+## 🎨 UI/UX
+
+- **Clean Design** - Antarmuka yang bersih dan modern untuk kemudahan navigasi
+- **Responsive Layout** - Tampilan yang responsif di berbagai ukuran layar
+- **Hidden Scrollbars** - Pengalaman scrolling yang mulus tanpa scrollbar yang mengganggu
+- **Sticky Sidebars** - Navigasi yang tetap terlihat saat scrolling konten utama
+- **Interactive Elements** - Komponen UI yang responsif untuk meningkatkan engagement
+
+## 📱 Fitur Sosial
+
+- **Profil Pengguna** - Tampilkan keahlian dan portfolio Anda
 - **Sistem Reputasi** - Bangun kredibilitas melalui kontribusi
-- **Challenges** - Asah keahlian dengan tantangan koding harian
+- **Leaderboard** - Lihat peringkat kontributor terbaik
+- **Koneksi** - Bangun jaringan profesional dengan developer lain
+- **Notifikasi** - Selalu update dengan aktivitas terbaru
 
 ## 💻 Teknologi
 
@@ -36,14 +44,26 @@ Proyek ini dibangun dengan teknologi modern:
 - **Frontend**: React.js, Tailwind CSS
 - **State Management**: React Context API
 - **Routing**: React Router
-- **Icons**: Heroicons
+- **Icons**: Heroicons (Outline & Solid)
+- **UI Enhancement**: Custom CSS utilities untuk scrollbar handling
 - **Development**: Webpack, Babel, ESLint
+
+## 🌟 Halaman yang Tersedia
+
+- **Dashboard** - Tampilan utama dengan ringkasan aktivitas
+- **Komunitas** - Jelajahi dan kelola keanggotaan komunitas
+- **Proyek** - Telusuri proyek dengan filter dan pencarian
+- **Diskusi** - Forum diskusi dengan berbagai topik teknologi
+- **Learning Path** - Jalur pembelajaran terstruktur dengan modul dan pelajaran
+- **Resources** - Kumpulan dokumentasi dan tutorial
+- **Job Board** - Lowongan pekerjaan di bidang teknologi
+- **Profil** - Informasi pengguna dan aktivitas
 
 ## 🚀 Cara Menjalankan Aplikasi
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/username/codecommune.git
+   git clone https://github.com/rasyagtps/codecommune.git
    cd codecommune
    ```
 
@@ -76,6 +96,14 @@ codecommune/
 └── ...                  # Config files
 ```
 
+## 🎯 Fitur yang Direncanakan
+
+- **Dark Mode** - Tema gelap untuk penggunaan di malam hari
+- **Progressive Web App (PWA)** - Dukungan offline dan instalasi ke desktop
+- **Real-time Notification** - Notifikasi instan untuk interaksi
+- **Gamifikasi** - Sistem badges dan rewards untuk meningkatkan engagement
+- **Multi-bahasa** - Dukungan untuk berbagai bahasa lokal Indonesia
+
 ## 👨‍💻 Kontribusi
 
 Kami sangat menghargai kontribusi dari komunitas! Jika Anda ingin berkontribusi:
@@ -89,14 +117,6 @@ Kami sangat menghargai kontribusi dari komunitas! Jika Anda ingin berkontribusi:
 ## 📝 Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
-
-## 📞 Kontak
-
-Punya pertanyaan? Hubungi kami di:
-
-- Email: [example@codecommune.id](mailto:example@codecommune.id)
-- Twitter: [@codecommune](https://twitter.com/codecommune)
-- Website: [www.codecommune.id](https://www.codecommune.id)
 
 ---
 

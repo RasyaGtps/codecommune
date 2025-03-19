@@ -7,7 +7,7 @@ const RightSidebar = () => {
   const { stats, challenges, leaders, connections } = useAppContext();
   
   return (
-    <div className="h-full bg-white border-l border-gray-200 overflow-y-auto">
+    <div className="h-screen scrollbar-hide bg-white border-l border-gray-200 overflow-y-auto pb-20">
       {/* Statistik developer */}
       <div className="p-4 border-b border-gray-200">
         <div className="flex justify-between items-center mb-2">

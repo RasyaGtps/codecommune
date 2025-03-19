@@ -15,16 +15,18 @@ const Dashboard = () => {
       </div>
       
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Kolom kiri: Activity Feed */}
-        <div className="lg:col-span-2">
+        {/* Kolom kiri: Activity Feed dengan scroll invisible */}
+        <div className="lg:col-span-2 max-h-[calc(100vh-180px)] overflow-y-auto scrollbar-hide pr-2">
           <ActivityFeed />
         </div>
         
-        {/* Kolom kanan: Trending Discussions */}
-        <div className="space-y-6">
-          <TrendingDiscussions />
-          <FeaturedProjects />
-          <UpcomingEvents />
+        {/* Kolom kanan: Trending Discussions dan lainnya dengan scroll invisible */}
+        <div className="max-h-[calc(100vh-180px)] overflow-y-auto scrollbar-hide pr-2">
+          <div className="space-y-6 pb-4">
+            <TrendingDiscussions />
+            <FeaturedProjects />
+            <UpcomingEvents />
+          </div>
         </div>
       </div>
     </div>
