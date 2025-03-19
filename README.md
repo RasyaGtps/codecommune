@@ -28,6 +28,15 @@ CodeCommune adalah platform komunitas modern untuk para developer Indonesia berk
 - **Hidden Scrollbars** - Pengalaman scrolling yang mulus tanpa scrollbar yang mengganggu
 - **Sticky Sidebars** - Navigasi yang tetap terlihat saat scrolling konten utama
 - **Interactive Elements** - Komponen UI yang responsif untuk meningkatkan engagement
+- **Visual Info Cards** - Kartu informasi dengan ikon dan warna yang memudahkan pemahaman
+- **Expandable Sections** - Panel informasi yang dapat diperluas untuk antarmuka yang rapi
+- **Tab Navigation** - Navigasi berbasis tab untuk mengorganisir konten dengan efisien
+
+## 📝 Halaman Informasi Legal
+
+- **Ketentuan Layanan** - Kebijakan penggunaan platform dengan desain interaktif accordion
+- **Kebijakan Privasi** - Informasi penggunaan data dengan tab navigasi dan infografis
+- **Kontak** - Halaman kontak lengkap dengan form, media sosial, dan peta lokasi terintegrasi
 
 ## 📱 Fitur Sosial
 
@@ -46,6 +55,8 @@ Proyek ini dibangun dengan teknologi modern:
 - **Routing**: React Router
 - **Icons**: Heroicons (Outline & Solid)
 - **UI Enhancement**: Custom CSS utilities untuk scrollbar handling
+- **Maps Integration**: Google Maps API
+- **Form Handling**: React Hooks
 - **Development**: Webpack, Babel, ESLint
 
 ## 🌟 Halaman yang Tersedia
@@ -58,6 +69,9 @@ Proyek ini dibangun dengan teknologi modern:
 - **Resources** - Kumpulan dokumentasi dan tutorial
 - **Job Board** - Lowongan pekerjaan di bidang teknologi
 - **Profil** - Informasi pengguna dan aktivitas
+- **Ketentuan Layanan** - Informasi legal dengan desain visual
+- **Kebijakan Privasi** - Kebijakan penggunaan data dengan antarmuka tab
+- **Kontak** - Form kontak dengan integrasi peta lokasi
 
 ## 🚀 Cara Menjalankan Aplikasi
 
@@ -103,6 +117,8 @@ codecommune/
 - **Real-time Notification** - Notifikasi instan untuk interaksi
 - **Gamifikasi** - Sistem badges dan rewards untuk meningkatkan engagement
 - **Multi-bahasa** - Dukungan untuk berbagai bahasa lokal Indonesia
+- **Authentication System** - Sistem login dengan berbagai provider
+- **Analitik Komunitas** - Metrik dan visualisasi aktivitas komunitas
 
 ## 👨‍💻 Kontribusi
 

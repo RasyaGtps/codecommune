@@ -7,6 +7,9 @@ import Projects from './pages/Projects';
 import Discussions from './pages/Discussions';
 import DiscussionDetail from './pages/DiscussionDetail';
 import LearningPath from './pages/LearningPath';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import Contact from './pages/Contact';
 import { AppProvider } from './context/AppContext';
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
             <Route path="/resources" element={<div>Halaman Resources</div>} />
             <Route path="/jobs" element={<div>Halaman Job Board</div>} />
             <Route path="/profile" element={<div>Halaman Profil</div>} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<div>Halaman Tidak Ditemukan</div>} />
           </Routes>
         </Layout>
