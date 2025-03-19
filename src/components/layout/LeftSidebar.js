@@ -9,7 +9,12 @@ import {
   AcademicCapIcon, 
   BookOpenIcon, 
   BriefcaseIcon,
-  PlusCircleIcon
+  PlusCircleIcon,
+  ClockIcon,
+  DocumentTextIcon,
+  BadgeCheckIcon,
+  LightningBoltIcon,
+  ExternalLinkIcon
 } from '@heroicons/react/outline';
 import { useAppContext } from '../../context/AppContext';
 
@@ -25,6 +30,23 @@ const LeftSidebar = () => {
     { name: 'Learning Path', path: '/learning', icon: AcademicCapIcon },
     { name: 'Resources', path: '/resources', icon: BookOpenIcon },
     { name: 'Job Board', path: '/jobs', icon: BriefcaseIcon },
+  ];
+  
+  const upcomingEvents = [
+    {
+      id: 1,
+      title: 'Workshop React.js',
+      date: '5 Juli 2024',
+      time: '15:00 WIB',
+      type: 'Online'
+    },
+    {
+      id: 2,
+      title: 'Meetup Developer Surabaya',
+      date: '15 Juli 2024',
+      time: '19:00 WIB',
+      type: 'Offline'
+    }
   ];
   
   return (
@@ -122,7 +144,7 @@ const LeftSidebar = () => {
       </div>
       
       {/* Learning path */}
-      <div className="p-4">
+      <div className="p-4 border-b border-gray-200">
         <div className="flex justify-between items-center mb-2">
           <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
             Learning Path
@@ -175,6 +197,99 @@ const LeftSidebar = () => {
               </div>
             </Link>
           ))}
+        </div>
+      </div>
+      
+      {/* Acara Mendatang */}
+      <div className="p-4 border-b border-gray-200">
+        <div className="flex justify-between items-center mb-2">
+          <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+            Acara Mendatang
+          </h3>
+          <Link 
+            to="/events" 
+            className="text-xs text-primary-600 hover:text-primary-800"
+          >
+            Lihat Semua
+          </Link>
+        </div>
+        
+        <div className="mt-2 space-y-3">
+          {upcomingEvents.map(event => (
+            <Link 
+              key={event.id}
+              to={`/events/${event.id}`} 
+              className="block p-3 rounded-md border border-gray-200 hover:border-primary-300 hover:bg-gray-50"
+            >
+              <div className="flex items-start">
+                <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-purple-100 text-purple-700">
+                  <ClockIcon className="h-6 w-6" />
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm font-medium text-gray-800">{event.title}</p>
+                  <p className="text-xs text-gray-500 mt-0.5">{event.date} • {event.time}</p>
+                  <div className="flex items-center mt-1">
+                    <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${
+                      event.type === 'Online' 
+                        ? 'bg-purple-100 text-purple-800'
+                        : 'bg-green-100 text-green-800'
+                    }`}>
+                      {event.type}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+      
+      {/* Resources */}
+      <div className="p-4 border-b border-gray-200">
+        <div className="flex justify-between items-center mb-2">
+          <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+            Resources
+          </h3>
+          <Link 
+            to="/resources" 
+            className="text-xs text-primary-600 hover:text-primary-800"
+          >
+            Lihat Semua
+          </Link>
+        </div>
+        
+        <div className="mt-2 space-y-2">
+          <Link to="/resources/category/tutorials" className="flex items-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-50">
+            <DocumentTextIcon className="h-5 w-5 text-primary-500 mr-3" />
+            <span className="text-sm">Tutorial & Panduan</span>
+          </Link>
+          <Link to="/resources/category/articles" className="flex items-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-50">
+            <BookOpenIcon className="h-5 w-5 text-blue-500 mr-3" />
+            <span className="text-sm">Artikel & Blog</span>
+          </Link>
+          <Link to="/resources/category/tools" className="flex items-center p-2 rounded-md text-gray-700 hover:text-primary-600 hover:bg-gray-50">
+            <LightningBoltIcon className="h-5 w-5 text-yellow-500 mr-3" />
+            <span className="text-sm">Tools & Utilities</span>
+          </Link>
+          <Link to="/resources/contribute" className="flex items-center p-2 rounded-md text-primary-600 hover:bg-primary-50">
+            <PlusCircleIcon className="h-5 w-5 mr-2" />
+            <span className="text-sm">Tambahkan resource</span>
+          </Link>
+        </div>
+      </div>
+      
+      {/* Job Board */}
+      <div className="p-4">
+        <div className="flex justify-between items-center mb-2">
+          <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+            Job Board
+          </h3>
+          <Link 
+            to="/jobs" 
+            className="text-xs text-primary-600 hover:text-primary-800"
+          >
+            Lihat Semua
+          </Link>
         </div>
       </div>
     </div>

@@ -7,6 +7,9 @@ import Projects from './pages/Projects';
 import Discussions from './pages/Discussions';
 import DiscussionDetail from './pages/DiscussionDetail';
 import LearningPath from './pages/LearningPath';
+import Events from './pages/Events';
+import Resources from './pages/Resources';
+import Jobs from './pages/Jobs';
 import Terms from './pages/Terms';
 import Privacy from './pages/Privacy';
 import Contact from './pages/Contact';
@@ -23,10 +26,14 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/discussions" element={<Discussions />} />
             <Route path="/discussions/:id" element={<DiscussionDetail />} />
-            <Route path="/events" element={<div>Halaman Acara</div>} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/events/:id" element={<div>Detail Acara</div>} />
             <Route path="/learning" element={<LearningPath />} />
-            <Route path="/resources" element={<div>Halaman Resources</div>} />
-            <Route path="/jobs" element={<div>Halaman Job Board</div>} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/resources/category/:category" element={<Resources />} />
+            <Route path="/resources/contribute" element={<div>Tambah Resource</div>} />
+            <Route path="/jobs" element={<Jobs />} />
+            <Route path="/jobs/:id" element={<div>Detail Pekerjaan</div>} />
             <Route path="/profile" element={<div>Halaman Profil</div>} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
